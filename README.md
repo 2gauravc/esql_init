@@ -46,16 +46,18 @@ pip install -r requirements.txt
 ```
 ### Create account and DB instance  on ElephantSQL
 
+To access Elephant SQL services, you need to open an account. Login to Elephant SQL via your Google or Github account.  
+
+Create a new database instance.  
+
+Go back to the home screen and click on the database instance you just created. See the instance details. You will need these details to connect to the database instance from Python. 
 
 
 ### Create the config.py file
 
-You need to create a file called config.py with your API KEY and SECRET in the rep home folder - this is where the code file tagging.py exists. 
+The code repository needs a configuration file that stores the details of the database instance you have created. 
 
-Paste this into the config.py file. Update the file with your API KEY and SECRET. 
-
-api_key="YOUR_API_KEY"      
-api_secret = "YOUR_API_SECRET"
+This repo has a file called config-template.py. Edit the file to add the details of the your database instance from the 'Details' tab on Elephant SQL. Save the file as config.py. 
 
 ## Understand the problem 
 
