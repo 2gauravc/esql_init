@@ -1,7 +1,6 @@
 import psycopg2
 import config
 import sys, getopt
-import csv
 
 def connect_db():
     """ Connect to the PostgreSQL database server """
