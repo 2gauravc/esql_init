@@ -88,5 +88,9 @@ This will extract the SQL statement from the sqlfile, execute the SQL statements
 ### DELETE tables 
 You can also delete the tables by using the table_deletion.sql file. 
 
+```
+python create_drop_tables.py --sqlfile='table_deletion.sql'
+```
+
 
 
