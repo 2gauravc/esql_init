@@ -1,0 +1,10 @@
+table_name,datafile_path
+customers,data/customers.csv
+employees,data/employees.csv
+offices,data/offices.csv
+orderdetails,data/orderdetails.csv
+orders,data/orders.csv
+payments,data/payments.csv
+productlines,data/productlines.csv
+products,data/products.csv
+
