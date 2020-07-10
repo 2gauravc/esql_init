@@ -92,5 +92,18 @@ You can also delete the tables by using the table_deletion.sql file.
 python create_drop_tables.py --sqlfile='table_deletion.sql'
 ```
 
+### INSERT data in the tables 
+
+The data to be inserted is in data/. 
+
+The data/ folder also has a file called datafilemap.txt. This has the data file name to the database table mapping information. 
+
+To read the data from the files one by one and write to the corresponding data table, type the below. 
+
+```
+python insert_data_tables.py --datamap='data/datafilemap.txt'
+
+```
+
 
 
