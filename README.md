@@ -98,7 +98,7 @@ The data to be inserted is in data/.
 
 The data/ folder also has a file called datafilemap.txt. This has the data file name to the database table mapping information. 
 
-To read the data from the files one by one and write to the corresponding data table, type the below. 
+To read the data from the files one by one and write to the corresponding database table, use the below. 
 
 ```
 python insert_data_tables.py --datamap='data/datafilemap.txt'
